@@ -1,0 +1,382 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+
+
+.one{
+    width:80%;
+ 
+    margin :0 auto;
+    overflow:hidden;
+    background-color:#fff;
+}
+.two{
+    width:20%;
+   /* border:1px solid green;*/
+    float:left;
+    margin-top:6px
+    
+}
+.two img{
+    width:100%
+}
+.three{
+    margin-top:7px;
+    width:79%;
+  /*  border:1px solid blue;*/
+    float:right;
+
+}
+.three ul{
+    float:right;
+}
+.three ul li{
+    list-style: none;
+    display:inline-block;
+    margin:5px 10px
+
+}
+.three ul li a{
+    color:black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+.three ul li a :last-child{
+    padding:0;
+}
+.three ul li a:hover{
+    color:red;
+    border-bottom: 2px solid red;
+
+}
+.four{
+    min-height: 450px;
+    background-image: url(../image/person.jpg);
+    background-size: cover;
+}
+.five{
+    margin-left: 70px;
+   width:35%;
+   
+  /*  border:1px solid red;*/
+}
+.contant{
+    padding: 50px;
+   /* border:1px solid red;*/
+}
+.contant h1{
+    color:white;
+    font-size: 35px;
+    font-weight: 700px;
+    font-family: sans-serif;
+}
+.contant p{
+    font-family:sans-serif;
+    font-weight:650 ;
+}
+
+.contant button{
+    width:170px;
+    height:50px;
+    font-weight: 500px;
+    background-color: #942032;
+    color:white;
+    cursor: pointer;
+    border:none;
+}
+.contant button:hover{
+    background-color: white;
+    color:black;
+}
+.six {
+     
+   /* border:1px solid red;*/
+    width:70%;
+    text-align: center;
+    margin:45px auto;
+}
+.six h1{
+    font-family: sans-serif;
+}
+.six p{
+    font-family: sans-serif;
+}
+.seven{
+    
+    width:80%; 
+  /*  border:1px solid blue;*/
+    min-height:250px;
+    margin:0 auto;
+    margin-top: 1px;
+}
+.eight{
+
+    float:right;
+  /*  border :1px solid red;*/
+    width:33%;
+    height:251px;
+   
+}
+.nine{
+   
+   margin:0 auto;
+  /*  border:1px solid blue;*/
+    width:80%;
+    height: 175px;
+    text-align: center;
+}
+.nine img{
+    width:100%;
+    height:100%;
+}
+.nine h2{
+    text-align: center;
+}
+.ten{
+   
+   /* border:1px solid burlywood;*/
+    width:80%;
+    min-height:250px ;
+    margin:100px auto;
+}
+.elaven{
+    padding-top: 25px;
+    margin-left: 25px;
+    float:left;
+  /* border:1px solid red;*/
+    width:45%;
+   
+}
+.elaven h2{
+    font-family: sans-serif;
+}
+.elaven p{
+    font-weight: 600;
+}
+.elaven button{
+    width:100px;
+    height: 50px;
+    font-weight: 600;
+    background-color:#942032;
+    color: white;
+    border:none;
+    cursor:pointer;
+}
+.twelve{
+    padding-top: 10px;
+   /* margin-right: 25px;*/
+    float:right;
+    width:48%;
+}
+.twelve video{
+    width:100%;
+}
+.thirteen{
+ /*   border:1px solid blue;*/
+    margin:0 auto;
+    width:70%;
+    text-align: center;
+}
+.thirteen h1{
+    font-family: sans-serif;
+
+
+}
+.thirteen p{
+    font-family: sans-serif;
+}
+.wifi{
+    margin:50px auto;
+    padding-left: 15px;
+  /*  border:1px solid red;*/
+    width:80%;
+    height:440px ;
+}
+article{
+    margin-right: 8px;
+    text-align: center;
+  /* border:1px solid blue;*/
+    float:left;
+    width:32%;
+    height: 220px;
+    box-shadow:3px 3px 5px 0 gray;
+}
+article:hover{
+    background-color:antiquewhite;
+}
+
+.key{
+   margin:2px auto;
+ /*   border:1px solid red;*/
+    width:30%;
+    height: 68px;
+    
+
+}
+.key img{
+    width:96%;
+ 
+}
+.features{
+   /* border:1px solid gray;*/
+    width:150px;
+    height: 30px;
+    color:red;
+    margin:50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 2px 0 gray, 0 2px 3px 0 gray;
+   
+}
+footer{
+   /* border:1px solid brown;*/
+    width:100%;
+    height: 350px;
+    background-color: black;
+}
+.css{
+ /*  border:1px solid red;*/
+    margin:0 auto;
+    width:84%;
+    height:300px;
+    
+}
+.folder{
+    margin:0 auto;
+    text-align: center;
+    float:left;
+   /* border:1px solid blue;*/
+    width:33%;
+    height:300px;
+    background-color: black;
+}
+.folder h2{
+    color:red;
+}
+.file{
+    /*border:1px solid red;*/
+    height:40px;
+}
+.form a{
+    text-decoration: none;
+}
+.document{
+    border:1px solid black;
+    float:left;
+    width:15%;
+    height:40px;
+    background-color: black;
+    
+}
+.document img{
+    padding-top: 7px;
+    width:100%;
+    height: 80%;
+}
+
+
+.form{
+    float:right;
+    border:1px solid black;
+    width:82%;
+    height:40px;
+    text-align:center ;
+    color:white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+  
+
+    
+}
+
+
+.form h4 a{
+    color: white;
+}
+.logoimg{
+    background-color: black;
+    margin-top: 10px;
+  /* border:1px solid red;*/
+    width:80%;
+    height:40px;
+}
+.small{
+    margin-right: 4px;
+    float: right;
+    height:40px;
+    width:22%;
+   /* border:1px solid blue;*/
+    float:right;
+}
+.small img{
+    width:100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.link{
+   /* border:1px solid red;*/
+    margin-right: 80px;
+    height:160px;
+    background-color: black;
+
+}
+.link li{
+    
+  text-align: left;
+  color:white;
+}
+.link li a{
+    color:white;
+    text-decoration: none;
+}
+.folder p{
+    text-align: left;
+    color:white
+}
+.aria{
+    width:90%;
+    height: 40px;
+   /* border:1px solid red;*/
+    margin-top: 80px;
+}
+.data{
+    
+    align-items: center;
+    display: flex;
+    float:left;
+    padding-bottom: 10px;
+    height:30px;
+    width:48%;
+    border:1px solid wheat;
+   
+   
+   
+}
+.data p{
+    text-align: center;
+    align-items: center;
+    margin:0 15px
+}
+.subscribe{
+   
+     justify-content: center;
+    float:right;
+    border:1px solid red;
+    width:50%;
+    height:40px;
+    align-items: center;
+    display: flex;
+    background-color: red;
+    color:white;
+
+}
